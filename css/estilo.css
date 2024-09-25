@@ -1,0 +1,88 @@
+/* Estilo general */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0f3880;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Encabezados */
+h1, h2 {
+    color: #222847;
+    text-align: center;
+}
+
+/* Párrafos */
+p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 20px;
+}
+
+/* Botones */
+button {
+    background-color: #0f3880;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Imágen con los bordes redondeados */
+img {
+    
+    width: 40vw;
+    height: 30vw;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+/* Formulario */
+form {
+    margin: 20px;
+    padding: 5px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0f3880;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0c2b66;
+}
+
